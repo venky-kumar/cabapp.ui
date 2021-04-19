@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+   color: black;
+background-color:yellow;
+ text-align: center;
+ margin-bottom: 30px;
+}
+table{
+margin:0 auto;
+height: 200px;
+width: 380px;
+text-align:center;
+    
+}
+button{
+    margin:10% 0% 0% 50%;
+    height:30px;
+    width:70px;
+   
+
+}
+
+
+
+
