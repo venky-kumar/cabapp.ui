@@ -1,24 +1,42 @@
 @charset "ISO-8859-1";
 
-.table h1{
-	color:blue;
-	background:orange;
-	text-align:center;
-	margin: auto;
-	width: 50%;
-	border: 3px solid green;
-	padding: 10px;
-}
-.table label{
-	color:#e61022;
-	 text-align: center;
-	 margin:0 auto;
-	 width:150px;
+body{
+	background : url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-repeat: no-repeat;
+	object-fit:cover;
 	
 }
-.table form{
-	 text-align: center;
-	 margin:0 auto;
-	 width:150
+ h1{
+	color:white;
+
+
 }
+
+form{
+	margin: auto;
+	margin-top:10%;
+	border: 5px solid white;
+	border-radius: 20px;
+	text-align: center;
+   width:30%;
+   background : url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   background-size:cover;
+}
+ .wrong label{
+
+	color:red;
+	 text-align: center;
+	visibility: hidden;}
+input{
+margin:5%;
+}	
+button{
+	margin-bottom: 5%;
+}
+
+button:hover{
+	background-color: blue;
+}
+
+
 
