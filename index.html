@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src ="sample.js"></script>
+    
 <link rel = "stylesheet" href = "olacss.css">
+<body>
 <meta charset="ISO-8859-1">
 <title>olaCab-booking </title>
 <head>ola booking </head>
-
-<div class = "table">
-
-
-<form action = "secondpage.html">
-<form action = "thirdpage.html">
-
+<form action ="secondpage.html" onsubmit="return validate()">
+<form>
 <h1>login page</h1>
-
-<label for ="name">enter the name</label>
-<input type = "text" name ="name"id ="name" placeholder ="enter name"><br/>
-
-<label for ="collegename">enter the college name</label>
-<input type="text" name ="college name" id = "age"placeholder = "enter college name"><br/>
-
-<label for= "age">enter the age</label>
-<input type="number" name ="age" id = "age" placeholder = "enter your age"><br/>
+<label for ="name"></label>
+<input type = "number" name ="name"id ="name" placeholder ="enter name"><br/>
 
 
+<label for= "password"></label>
+<input type="password" name ="password" id = "pass" placeholder = "enter your password"><br/>
+<div class="wrong">
+<label for = "wrong" id="invalid">invalid creditionals</label><br/><br/>
+</div></br>
 <button>submit</button>
 </form>
-</form>
-</div>
+
+</body>
+
 
 </html>
+
