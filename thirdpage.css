@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel = "stylesheet" href = "thirdpage.css">
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: black;
 
-<form action = "fourthpage.html">
-<body>
-
-</body>
-</html>
-
-
-<body>
-    
-<h2>cab selection</h2>
-<label for="cars">Choose a car:</label>
-
-<select name="cars" >
-  <option value="micro">micro</option>
-  <option value="macro">macro</option>
-  <option value="prime">prime</option>
+    color: white;
+   
+    text-align: center;
+   
+}
+label{
+    width: 10px;
+  height: 10px;
  
-</select></br>
-<label>enter km</label>
-<input type="km"  placeholder = "enter the km"><br/>
 
-<button>submit</button>
-</form>
-</body>
-</head>
-	
+}
+body{
+    margin: 10% 30% 2% 30%;
+    border: 10px solid brown;
+    border-radius: 30px;
+    background:url(https://thumbs.gfycat.com/CharmingTenderAtlasmoth-size_restricted.gif);
+    background-size: 100%;
+}
