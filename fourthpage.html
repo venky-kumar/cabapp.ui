@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+        <script src="fourthpage.js"></script>
+        <meta charset="ISO-8859-1">
+        <title>Insert title here</title>
 </head>
 
 <body>
-        <form action = "fifthpage.html">
-        <link rel = "stylesheet" href = "fourthpage.css">
-    <h3>booking</h3>
-<form method="post">
-    <input type ="hidden" name ="ip" value="1.1.1.1">
+        <form action="fifthpage.html" onsubmit="date()" onsubmit="peak()">
+                <link rel="stylesheet" href="fourthpage.css">
+                <h1>booking</h1>
+                <label>enter your name:</label>
+                <input type="text" name="username" id="username">
+                <br>
+                <br>
+                <label>journey date:</label>
+                <input type="date" name="journeydate" id="journeydate">
+                <br/>
+                <br/>
+                <label>timing:</label>
+                <input type="time" name="jtime" id="journeytime" min="00:00" max="24:00" />
+                <br/>
+                <br/>
+                <p> The Price for PeakHour Charges is
+                        <span id="charge"></span>
+                </p>
+                </br>
+                </br>
 
-    <label>journey date</label>
-    <input type = "date" name = "journeyDate"
-    min="2021-04-19" max="2021-04-26"/>
-    <br/><br/>
-    <label>timing</label>
-    <input type = "time" name ="pickuptime"
-    min = "12:00" max = "06:00"/>
-<br/><br/>
-gst:<input type = "number" name = "gst " value = 10 readonly>
-<br/><br/>
-seniorcitizen
-<input type = "checkbox" name = "seniorcitizenship" >
-<br/><br/>
-Gender: <input type="radio" name="gender" value="M"> Male 
-<input type="radio" name="gender" value="F"> Female <br/>
-<br/><br/>
+                <h1>Senior Citizen Check</h1>
+                <input type="date" name="BirthdayDate" id="bday">
+                </br>
+                </br>
+                <button id="check" onclick="peak()">Calculate</button>
+                </br>
+                <p>The Discounted price is
+                        <span id="dprice"></span>
+                </p>
+                Gender:
+                <input type="radio" name="gender" value="M" required> Male
+                <input type="radio" name="gender" value="F" required> Female
+                <br/>
+                <br/>
+                <br/>
 
-<br/>  <br/> 
-<button>submit</button>
-</form>
+                <button>submit</button>
+        </form>
 </body>
+
 </html>
