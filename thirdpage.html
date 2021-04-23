@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel = "stylesheet" href = "thirdpage.css">
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-
-<form action = "fourthpage.html">
-<body>
-
-</body>
-</html>
+  <link rel="stylesheet" href="thirdpage.css">
+  <script src="thirdpage.js"></script>
+  <meta charset="ISO-8859-1">
+  <title>Insert title here</title>
 
 
-<body>
-    
-<h2>cab selection</h2>
-<label for="cars">Choose a car:</label>
 
 
-<select name="cars" >
-  <option value="micro">micro</option>
-  <option value="macro">macro</option>
-  <option value="prime">prime</option>
 
-</select></br><br/><br/>
-<label>enter km</label>
-<input type="km"  placeholder = "enter the km"><br/>
-<br/><br/>
-<label>cost</label>
-<input type="text"  placeholder = "the estimated cost is"><br/>
-<button>submit</button>
-</form>
-</body>
+
+  <body>
+    <form action="fourthpage.html" onsubmit="return bill()">
+      <h1>cab selection</h1>
+      <label for="cars">Choose a car:</label>
+
+
+      <select name="cars" id="cars">
+        <option value="micro">micro</option>
+        <option value="macro">macro</option>
+        <option value="prime">prime</option>
+
+      </select>
+      </br>
+      <br/>
+      <label>enter km:</label>
+      <input type="number" name="km" id="kilometer" placeholder="enter the km">
+      <br/>
+      <br/>
+      <input type="text " name="gst:7% " value="7% GST " readonly>
+      <br/>
+      <label for="bill" id="bill"></label>
+      <br>
+      <label for="gst" id="gst"></label>
+      <label>cost</label>
+      <br/>
+      <center>
+        <button value="calculator" id="calculate">submit</button>
+    </form>
+    <form action="fourthpage.html">
+      <button>next</button>
+    </form>
+    </center>
+  </body>
 </head>
-	
-	
+
+</html>
